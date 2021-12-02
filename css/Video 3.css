@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+
+.video3_titles {
+	position: absolute;
+	top: 620px;
+	}
+
+h5.author_video3 {
+	position: absolute; 
+	top: 650px;
+	left: 24px;
+	}
+
+img.author_video3 {
+	width: 12px;
+	position: absolute;
+	top: 672px;
+	}
+
+h5.time_video3 {
+	position: absolute; 
+	top: 650px;
+	left: 124px;
+	}
+
+img.time_video3 {
+	width: 15px;
+	position: absolute;
+	top: 672px;
+	left: 104px;
+	}
+
+h5.folders_video3 {
+	position: absolute; 
+	top: 648px;
+	left: 222px;
+	}
+
+img.folders_video3 {
+	width: 18px;
+	position: absolute;
+	top: 672px;
+	left: 200px;
+	}
+
+h5.comments_video3 {
+	position: absolute; 
+	top: 648px;
+	left: 516px;
+	}
+
+img.comments_video3 {
+	width: 12px;
+	position: absolute;
+	top: 672px;
+	left: 500px;
+	}
+
+.preview3 {
+	position: absolute; 
+	top: 692px;
+	width: 270px;
+	height: 150px;
+	}
+
+.video3_descriptions {
+	font-size: 14px;
+	text-align: justify;
+	width: 460px;
+	position: absolute;
+	top: 702px;
+	left: 296px;
+	}
+
+.video3_read_more {
+	width: 95px; 
+	background-color: skyblue; 
+	border: 2px solid black; 
+	text-align: center; 
+	position: absolute; 
+	top: 758px;
+	left: 296px;
+	}
+
+.video3_video_source {
+	position: absolute; 
+	top: 824px;
+	}
+
+@media screen and (max-width: 940px) { /* Reduces the size of the title and description */
+
+.video3_titles {
+	font-size: 20px;
+	top: 620px;
+	}
+	
+h5.author_video3 { 
+	top: 640px;
+	}
+
+img.author_video3 {
+	top: 662px;
+	}
+
+h5.time_video3 {
+	top: 640px;
+	left: 124px;
+	}
+
+img.time_video3 {
+	top: 662px;
+	}
+
+h5.folders_video3 {
+	top: 640px;
+	left: 222px;
+	}
+
+img.folders_video3 {
+	top: 664px;
+	left: 200px;
+	}
+
+h5.comments_video3 {
+	top: 640px;
+	left: 516px;
+	}
+
+img.comments_video3 {
+	top: 664px;
+	left: 500px;
+	}
+	
+.preview3 {
+	top: 684px;
+	}
+	
+.video3_descriptions {
+	top: 702px;
+	}
+
+.video3_read_more {
+	top: 758px;
+	}
+	
+.video3_video_source {
+	top: 814px;
+	}
+	
+	}
+	
+@media screen and (max-width: 790px) { /* Reduces the size of the title, info, thumbnail, description, etc., moves section up */
+	
+.video3_titles {
+	font-size: 20px;
+	top: 544px;
+	}
+	
+h5 {
+	width: 400px;
+	}
+	
+h5.author_video3 {
+	font-size: 12px;
+	top: 564px;
+	}
+	
+img.author_video3 {
+	top: 584px;
+	width: 10px;
+	}
+	
+h5.time_video3 {
+	top: 565px;
+	left: 118px;
+	font-size: 12px;
+	}
+	
+img.time_video3 {
+	top: 584px;
+	left: 98px;
+	width: 14px;
+	}
+	
+h5.folders_video3 {
+	top: 565px;
+	left: 206px;
+	font-size: 12px;
+	}
+	
+img.folders_video3 {
+	top: 586.8px;
+	left: 188px;
+	width: 14px;
+	}
+	
+h5.comments_video3 {
+	top: 565px;
+	left: 472px;
+	font-size: 12px;
+	}
+	
+img.comments_video3 {
+	top: 586px;
+	left: 458px;
+	width: 10px;
+	}
+	
+.preview3 {
+	width: 196px;
+	height: 110px;
+	top: 606px;
+	}
+	
+.video3_descriptions {
+	width: 500px;
+	font-size: 86%;
+	top: 606px;
+	left: 220px;
+	}
+	
+.video3_read_more {
+	top: 652px;
+	left: 220px;
+	}
+	
+.video3_video_source {
+	top: 698px;
+	}
+	}
+
+@media screen and (max-width: 780px) { /* Reduces the size of the title, info, thumbnail, description, etc., moves section up */
+	
+.video3_titles {
+	font-size: 18px;
+	top: 496px
+	}
+	
+h5.author_video3 {
+	font-size: 10px;
+	top: 518px;
+	left: 20px;
+	}
+	
+img.author_video3 {
+	top: 534px;
+	width: 8px;
+	}
+	
+h5.time_video3 {
+	top: 518px;
+	left: 96px;
+	font-size: 10px;
+	}
+	
+img.time_video3 {
+	top: 534px;
+	left: 80px;
+	width: 12px;
+	}
+	
+h5.folders_video3 {
+	top: 518px;
+	left: 170px;
+	font-size: 10px;
+	}
+	
+img.folders_video3 {
+	top: 535.8px;
+	left: 154px;
+	width: 12px;
+	}
+	
+h5.comments_video3 {
+	top: 518px;
+	left: 392px;
+	font-size: 10px;
+	}
+	
+img.comments_video3 {
+	top: 536px;
+	left: 380px;
+	width: 8px;
+	}
+	
+.preview3 {
+	width: 176px;
+	height: 100px;
+	top: 552px;
+	}
+	
+.video3_descriptions {
+	font-size: 74%;
+	width: 430px;
+	top: 554px;
+	left: 196px;
+	}
+	
+.video3_read_more {
+	top: 596px;
+	left: 196px;
+	}
+	
+.video3_video_source {
+	top: 636px;
+	}
+	
+	}
+
+@media screen and (max-width: 730px) { /* Reduces the size of the title, info, thumbnail, description, etc., moves section up */
+	
+.video3_titles {
+	font-size: 14.6px;
+	top: 473px
+	}
+	
+h5.author_video3 {
+	top: 489px;
+	left: 18px;
+	font-size: 9px;
+	}
+	
+img.author_video3 {
+	top: 504px;
+	width: 7px;
+	}
+	
+h5.time_video3 {
+	top: 489px;
+	left: 88px;
+	font-size: 9px;
+	}
+	
+img.time_video3 {
+	top: 504px;
+	left: 72px;
+	width: 11px;
+	}
+	
+h5.folders_video3 {
+	top: 489px;
+	left: 152px;
+	font-size: 9px;
+	}
+	
+img.folders_video3 {
+	top: 505px;
+	left: 138px;
+	width: 11px;
+	}
+	
+h5.comments_video3 {
+	top: 489px;
+	left: 350px;
+	font-size: 9px;
+	}
+	
+img.comments_video3 {
+	top: 505px;
+	left: 340px;
+	width: 8px;
+	}
+	
+.preview3 {
+	width: 150px;
+	height: 90px;
+	top: 522px;
+	}
+	
+.video3_descriptions {
+	text-align: justify;
+	font-size: 60%;
+	width: 320px;
+	top: 524px;
+	left: 170px;
+	}
+	
+.video3_read_more {
+	font-size: 12px;
+	width: 76px;
+	top: 558px;
+	left: 170px;
+	}
+	
+.video3_video_source {
+	top: 590px;
+	} 
+
+}
