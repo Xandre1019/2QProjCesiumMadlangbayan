@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+a { /* For the links to look like hwo they do normally */
+	text-decoration: underline;
+	color: blue;
+	}
+
+span { /* For the italic text */
+	font-style: italic;
+	}
+
+h3, p { /* Defaults position setting */
+	position: absolute;
+	}
+
+/* Defines the position of the text */
+
+h3 {
+	top: 100px;
+	}
+
+#social_media_icons {
+	top: 130px;
+	}
+
+#social_media_icons_1 {
+	top: 160px;
+	}
+
+#other_icons {
+	top: 230px;
+	}
+
+#other_icons_1 {
+	top: 260px;
+	}
+
+#other_icons_2 {
+	top: 320px;
+	}
+
+#other_icons_3 {
+	top: 380px;
+	}
+
+#other_icons_4 {
+	top: 440px;
+	}
+
+#thumbnails {
+	top: 510px;
+	}
+
+#thumbnails_1 {
+	top: 540px;
+	}
+
+#thumbnails_2 {
+	top: 620px;
+	}
+
+#thumbnails_3 {
+	top: 700px;
+	}
+
+#thumbnails_4 {
+	top: 780px;
+	}
+
+#thumbnails_5 {
+	top: 840px;
+	}
+
+#thumbnails_6 {
+	top: 920px;
+	}
+
+#thumbnails_7 {
+	top: 1000px;
+	}
+
+#thumbnails_8 {
+	top: 1080px;
+	}
+
+#artwork {
+	top: 1200px;
+	}
+
+#artwork_1 {
+	top: 1240px;
+	}
