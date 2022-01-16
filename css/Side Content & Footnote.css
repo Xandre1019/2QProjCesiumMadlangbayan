@@ -1,0 +1,1056 @@
+@charset "utf-8";
+/* CSS Document */
+
+.follow_us, .latest_posts, .new_episodes_films, .new_shows_added {
+	width: 300px;
+	}
+
+.side_line {
+	background-color: black;
+	border: 2px solid black; 
+	width: 360px; 
+	position: absolute;
+	left: 74.8%;
+	}
+
+li {
+	font-weight: bold;
+	width: 280px;
+	position: absolute;
+	height: 30px;
+	left: 76%;
+	}
+
+li > p {
+	font-size: 65%;
+	}
+
+li > p > a:not(.default):link {
+	color: black;
+	}
+
+li > p > a:not(.default):hover{
+	color: blue;
+	}
+
+li > p > a:not(.default):active{
+	color: white;
+	}
+
+li > p > a:not(.default):visited{
+	color: darkblue;
+	}
+
+#follow_us {
+	top: 142px;
+	left: 74.8%;
+	}
+
+h2.follow_us {
+	position: absolute;
+	text-align: right;
+	top: 104px;
+	left: 65.5%;
+	}
+
+a:not(.default):link > div.sprite#youtube {
+	background: url("../images/Icons.png") no-repeat -30px -30px;
+	width: 42px;
+	height: 30px;
+	position: absolute;
+	top: 160px;
+	left: 1130px;
+	}
+
+a:not(.default):hover > div.sprite#youtube {
+	background: url('../images/Icons.png') no-repeat -30px -120px;
+	width: 42px;
+	height: 30px;
+	}
+
+.sprite#facebook {
+	background: url("../images/Icons.png") no-repeat -100px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 160px;
+	left: 1180px;
+	}
+
+a:not(.default):hover > div.sprite#facebook {
+	background: url('../images/Icons.png') no-repeat -100px -120px;
+	width: 31px;
+	height: 30px;
+	}
+
+.sprite#instagram {
+	background: url("../images/Icons.png") no-repeat -159px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 160px;
+	left: 1220px;
+	}
+
+a:not(.default):hover > div.sprite#instagram {
+	background: url('../images/Icons.png') no-repeat -159px -120px;
+	width: 31px;
+	height: 30px;
+	}
+
+.sprite#twitter {
+	background: url("../images/Icons.png") no-repeat -219px -31px;
+	width: 34px;
+	height: 29px;
+	position: absolute;
+	top: 160px;
+	left: 1260px;
+	}
+
+a:not(.default):hover > div.sprite#twitter {
+	background: url('../images/Icons.png') no-repeat -219px -121px;
+	width: 34px;
+	height: 29px;
+	}
+
+#latest_posts {
+	top: 242px;
+	}
+
+h2.latest_posts {
+	position: absolute;
+	text-align: right;
+	top: 204px;
+	left: 67.5%;
+	}
+
+#latest_posts_Entry1 {
+	width: 400px;
+	position: absolute;
+	top: 250px;
+	}
+
+#latest_posts_Entry2 {
+	width: 400px;
+	position: absolute;
+	top: 275px;
+	}
+
+#latest_posts_Entry3 {
+	width: 400px;
+	position: absolute;
+	top: 300px;
+	}
+
+#latest_posts_Entry4 {
+	width: 400px;
+	position: absolute;
+	top: 325px;
+	}
+
+#latest_posts_Entry5 {
+	position: absolute;
+	top: 350px;
+	}
+
+h2.new_episodes_films {
+	position: absolute;
+	text-align: right;
+	top: 380px;
+	left: 73.5%;
+	}
+
+#new_episodes_films {
+	position: absolute;
+	top: 418px;
+	}
+
+#new_episodes_films_Entry1 {
+	position: absolute;
+	top: 410px; 
+	}
+
+#new_episodes_films_Entry2 {
+	position: absolute;
+	top: 430px; 
+	}
+
+#new_episodes_films_Entry3 {
+	position: absolute;
+	top: 450px;
+	}
+
+#new_episodes_films_Entry4 {
+	position: absolute;
+	top: 470px;
+	}
+
+#new_episodes_films_Entry5 {
+	position: absolute;
+	top: 490px;
+	}
+
+#new_episodes_films_Entry6 {
+	position: absolute;
+	top: 510px;
+	}
+
+h2.new_shows_added {
+	position: absolute;
+	text-align: right;
+	top: 548px;
+	left: 72%
+	}
+
+#new_shows_added {
+	position: absolute;
+	top: 586px;
+	}
+
+#new_shows_added_Entry1 {
+	position: absolute;
+	top: 594px; 
+	}
+
+#new_shows_added_Entry2 {
+	position: absolute;
+	top: 614px; 
+	}
+
+#new_shows_added_Entry3 {
+	position: absolute;
+	top: 634px;
+	}
+
+#new_shows_added_Entry4 {
+	position: absolute;
+	top: 654px;
+	}
+
+#new_shows_added_Entry5 {
+	position: absolute;
+	top: 674px;
+	}
+
+.footnote {
+	width: 400px;
+	height: 20px;
+	left: 0px;
+	position: absolute;
+	top: 1500px;
+	}
+
+.footnote_line {
+	background-color: darkgray;
+	border: 1px solid darkgray; 
+	width: 225px;
+	position: absolute;
+	top: 26px;
+	left: 2px;
+	}
+
+footnote {
+	background-color: dimgray;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	position: absolute;
+	top: 1550px;
+	}
+
+p.footnote {
+	position: absolute;
+	}
+
+#site_stuff_head {
+	top: 0px;
+	left: 2px;
+	}
+
+#site_stuff_item1 {
+	top: 22px;
+	left: 2px;
+	}
+
+#site_stuff_item2 {
+	top: 42px;
+	left: 2px;
+	}
+
+#contacts {
+	top: 26px;
+	left: 262px;
+	}
+
+#contacts_head {
+	top: 0px;
+	left: 262px;
+	}
+
+#contacts_item1 {
+	top: 22px;
+	left: 262px;
+	}
+
+#contacts_item2 {
+	top: 42px;
+	left: 262px;
+	}
+
+#partners {
+	width: 600px;
+	top: 102px;
+	left: 2px;
+	}
+
+#partners_head {
+	top: 76px;
+	left: 2px;
+	}
+
+#partners_item1 {
+	top: 98px;
+	left: 2px;
+	}
+
+#partners_item2 {
+	top: 118px;
+	left: 2px;
+	}
+
+#partners_item3 {
+	top: 98px;
+	left: 130px;
+	}
+
+#partners_item4 {
+	top: 118px;
+	left: 132px;
+	}
+
+#partners_item5 {
+	top: 98px;
+	left: 260px;
+	}
+
+#partners_item6 {
+	top: 118px;
+	left: 262px;
+	}
+
+#copyright {
+	width: 99%;
+	background-color: black;
+	border: 1px solid black;
+	position: absolute;
+	top: 162px;
+	left: 6px;
+	}
+
+#copyright_text {
+	top: 156px;
+	left: 6px;
+	}
+
+@media screen and (max-width: 1250px) { /* Moves them to the bottom in a three and one row setup, moves footnote down accordingly */
+	
+.follow_us, .latest_posts, .new_episodes_films, .new_shows_added {
+	width: 300px;
+	}
+	
+#follow_us {
+	top: 1542px;
+	left: 8px;
+	}
+
+h2.follow_us {
+	text-align: left;
+	top: 1504px;
+	left: 18px;
+	}
+	
+.sprite#youtube {
+	background: url("../images/Icons.png") no-repeat -30px -30px;
+	width: 42px;
+	height: 30px;
+	position: absolute;
+	top: 1560px;
+	left: 20px;
+	}
+
+.sprite#facebook {
+	background: url("../images/Icons.png") no-repeat -100px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 1560px;
+	left: 70px;
+	}
+
+.sprite#instagram {
+	background: url("../images/Icons.png") no-repeat -159px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 1560px;
+	left: 110px;
+	}
+
+.sprite#twitter {
+	background: url("../images/Icons.png") no-repeat -219px -31px;
+	width: 34px;
+	height: 29px;
+	position: absolute;
+	top: 1560px;
+	left: 150px;
+	}
+
+#latest_posts {
+	top: 1542px;
+	left: 400px;
+	}
+
+h2.latest_posts {
+	text-align: left;
+	top: 1504px;
+	left: 410px;
+	}
+
+#latest_posts_Entry1 {
+	top: 1550px;
+	left: 420px;
+	}
+
+#latest_posts_Entry2 {
+	top: 1570px;
+	left: 420px;
+	}
+
+#latest_posts_Entry3 {
+	top: 1590px;
+	left: 420px;
+	}
+
+#latest_posts_Entry4 {
+	top: 1610px;
+	left: 420px;
+	}
+
+#latest_posts_Entry5 {
+	top: 1630px;
+	left: 420px;
+	}
+
+h2.new_episodes_films {
+	text-align: left;
+	top: 1504px;
+	left: 810px;
+	}
+
+#new_episodes_films {
+	top: 1542px;
+	left: 800px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1535px;
+	left: 820px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1555px;
+	left: 820px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1575px;
+	left: 820px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1595px;
+	left: 820px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1615px;
+	left: 820px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1635px;
+	left: 820px;
+	}
+	
+h2.new_shows_added {
+	text-align: left;
+	top: 1688px;
+	left: 18px;
+	}
+
+#new_shows_added {
+	top: 1726px;
+	left: 8px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1734px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1754px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 1774px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 1794px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 1814px;
+	left: 28px;
+	}
+	
+footnote {
+	top: 1890px;
+	}
+	}
+
+@media screen and (max-width: 1170px) { /* Moves them to the bottom in a two and two row setup */
+
+h2.new_episodes_films {
+	top: 1688px;
+	left: 18px;
+	}
+
+#new_episodes_films {
+	top: 1728px;
+	left: 8px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1714px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1734px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1754px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1794px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1814px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1834px;
+	left: 28px;
+	}
+	
+h2.new_shows_added {
+	text-align: left;
+	top: 1688px;
+	left: 410px;
+	}
+
+#new_shows_added {
+	top: 1726px;
+	left: 400px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1734px;
+	left: 420px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1754px;
+	left: 420px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 1774px;
+	left: 420px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 1794px;
+	left: 420px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 1814px;
+	left: 420px;
+	}
+	
+footnote {
+	top: 1910px;
+	}
+	}
+
+@media screen and (max-width: 830px) { /* Moves them to the bottom in a single column setup, moves footnote down accordingly */
+
+#latest_posts {
+	top: 1620px;
+	left: 8px;
+	}
+
+h2.latest_posts {
+	top: 1580px;
+	left: 18px;
+	}
+
+#latest_posts_Entry1 {
+	top: 1626px;
+	left: 28px;
+	}
+
+#latest_posts_Entry2 {
+	top: 1646px;
+	left: 28px;
+	}
+
+#latest_posts_Entry3 {
+	top: 1666px;
+	left: 28px;
+	}
+
+#latest_posts_Entry4 {
+	top: 1686px;
+	left: 28px;
+	}
+
+#latest_posts_Entry5 {
+	top: 1706px;
+	left: 28px;
+	}
+
+h2.new_episodes_films {
+	top: 1750px;
+	left: 18px;
+	}
+
+#new_episodes_films {
+	top: 1790px;
+	left: 8px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1776px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1796px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1816px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1836px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1856px;
+	left: 28px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1876px;
+	left: 28px;
+	}
+	
+h2.new_shows_added {
+	text-align: left;
+	top: 1918px;
+	left: 18px;
+	}
+
+#new_shows_added {
+	top: 1960px;
+	left: 8px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1968px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1988px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 2008px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 2028px;
+	left: 28px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 2048px;
+	left: 28px;
+	}
+	
+footnote {
+	top: 2252px;
+	}
+	}
+
+@media screen and (max-width: 790px) { /* Moves them up in relation to the main content moving, moves footnote up accordingly */
+	
+#follow_us {
+	top: 1392px;
+	left: 8px;
+	}
+
+h2.follow_us {
+	text-align: left;
+	top: 1354px;
+	left: 18px;
+	}
+	
+.sprite#youtube {
+	background: url("../images/Icons.png") no-repeat -30px -30px;
+	width: 42px;
+	height: 30px;
+	position: absolute;
+	top: 1410px;
+	left: 20px;
+	}
+
+.sprite#facebook {
+	background: url("../images/Icons.png") no-repeat -100px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 1410px;
+	left: 70px;
+	}
+
+.sprite#instagram {
+	background: url("../images/Icons.png") no-repeat -159px -30px;
+	width: 31px;
+	height: 30px;
+	position: absolute;
+	top: 1410px;
+	left: 110px;
+	}
+
+.sprite#twitter {
+	background: url("../images/Icons.png") no-repeat -219px -31px;
+	width: 34px;
+	height: 29px;
+	position: absolute;
+	top: 1410px;
+	left: 150px;
+	}
+	
+#latest_posts {
+	top: 1472px;
+	}
+
+h2.latest_posts {
+	top: 1432px;
+	}
+
+#latest_posts_Entry1 {
+	top: 1478px;
+	}
+
+#latest_posts_Entry2 {
+	top: 1498px;
+	}
+
+#latest_posts_Entry3 {
+	top: 1518px;
+	}
+
+#latest_posts_Entry4 {
+	top: 1538px;
+	}
+
+#latest_posts_Entry5 {
+	top: 1558px;
+	}
+
+h2.new_episodes_films {
+	top: 1572px;
+	}
+
+#new_episodes_films {
+	top: 1612px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1598px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1618px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1638px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1658px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1678px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1698px;
+	}
+	
+h2.new_shows_added {
+	top: 1740px;
+	}
+
+#new_shows_added {
+	top: 1782px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1790px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1810px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 1830px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 1850px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 1870px;
+	}
+	
+footnote {
+	top: 2084px;
+	}
+	}
+
+@media screen and (max-width: 780px) { /* Moves them up in relation to the main content moving, moves footnote up accordingly */
+	
+#latest_posts {
+	top: 1478px;
+	}
+
+h2.latest_posts {
+	top: 1438px;
+	}
+
+#latest_posts_Entry1 {
+	top: 1484px;
+	}
+
+#latest_posts_Entry2 {
+	top: 1504px;
+	}
+
+#latest_posts_Entry3 {
+	top: 1524px;	}
+
+#latest_posts_Entry4 {
+	top: 1544px;
+	}
+
+#latest_posts_Entry5 {
+	top: 1564px;
+	}
+
+h2.new_episodes_films {
+	top: 1588px;
+	}
+
+#new_episodes_films {
+	top: 1628px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1614px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1634px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1654px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1674px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1694px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1714px;
+	}
+	
+h2.new_shows_added {
+	top: 1746px;
+	}
+
+#new_shows_added {
+	top: 1788px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1796px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1816px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 1836px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 1856px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 1876px;
+	}
+	
+footnote {
+	top: 2080px;
+	}
+	}
+
+@media screen and (max-width: 730px) { /* Moves them up in relation to the main content moving, moves footnote up accordingly */
+	
+#latest_posts {
+	top: 1472px;
+	}
+
+h2.latest_posts {
+	top: 1432px;
+	}
+
+#latest_posts_Entry1 {
+	top: 1458px;
+	}
+
+#latest_posts_Entry2 {
+	top: 1478px;
+	}
+
+#latest_posts_Entry3 {
+	top: 1498px;
+	}
+
+#latest_posts_Entry4 {
+	top: 1518px;
+	}
+
+#latest_posts_Entry5 {
+	top: 1538px;
+	}
+
+h2.new_episodes_films {
+	top: 1572px;
+	}
+
+#new_episodes_films {
+	top: 1612px;
+	}
+
+#new_episodes_films_Entry1 {
+	top: 1598px;
+	}
+
+#new_episodes_films_Entry2 {
+	top: 1618px;
+	}
+
+#new_episodes_films_Entry3 {
+	top: 1638px;
+	}
+
+#new_episodes_films_Entry4 {
+	top: 1658px;
+	}
+
+#new_episodes_films_Entry5 {
+	top: 1678px;
+	}
+
+#new_episodes_films_Entry6 {
+	top: 1698px;
+	}
+	
+h2.new_shows_added {
+	top: 1740px;
+	}
+
+#new_shows_added {
+	top: 1780px;
+	}
+
+#new_shows_added_Entry1 {
+	top: 1770px;
+	}
+
+#new_shows_added_Entry2 {
+	top: 1790px;
+	}
+
+#new_shows_added_Entry3 {
+	top: 1810px;
+	}
+
+#new_shows_added_Entry4 {
+	top: 1830px;
+	}
+
+#new_shows_added_Entry5 {
+	top: 1850px;
+	}
+	
+footnote {
+	top: 2074px;
+	}
+	}
