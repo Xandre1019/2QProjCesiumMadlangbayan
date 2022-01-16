@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+a { /* For the links to look like hwo they do normally */
+	text-decoration: underline;
+	color: blue;
+	}
+
+span { /* For the italic text */
+	font-style: italic;
+	}
+
+h3, p, li, img { /* Defaults position setting */
+	position: absolute;
+	}
+
+p {
+	width: 300px;
+	}
+
+section.special_thanks > li > p {
+	width: 600px;
+	}
+
+/* Defines the position of the text */
+
+h3 {
+	top: 100px;
+	}
+
+li {
+	left: 35px;
+	list-style: none;
+	}
+
+section.youtube_channels > li {
+	top: 0px;
+	}
+
+#youtube_channels {
+	top: 130px;
+	left: 20px;
+	}
+
+#youtube_channels_1 {
+	top: 160px;
+	}
+
+img.vgmarkis {
+	width: 20px;
+	top: 174px;
+	left: 10px;
+	}
+
+#youtube_channels_2 {
+	top: 190px;
+	}
+
+img.roundtable {
+	width: 20px;
+	top: 205px;
+	left: 10px;
+	}
+
+#youtube_channels_3 {
+	top: 220px;
+	}
+
+img.rebecca_rose {
+	width: 20px;
+	top: 235px;
+	left: 10px;
+	}
+
+#youtube_channels_4 {
+	top: 250px;
+	}
+
+img.tomotasauce {
+	width: 20px;
+	top: 265px;
+	left: 10px;
+	}
+
+#youtube_channels_5 {
+	top: 280px;
+	}
+
+img.calebthepianist {
+	width: 20px;
+	top: 295px;
+	left: 10px;
+	}
+
+#youtube_channels_6 {
+	top: 310px;
+	}
+
+img.tridashie {
+	width: 20px;
+	top: 325px;
+	left: 10px;
+	}
+
+section.artists > li {
+	top: 0px;
+	}
+
+#artists {
+	top: 350px;
+	left: 20px;
+	}
+
+#artists_1 {
+	top: 380px;
+	}
+
+img.ravencourse {
+	width: 20px;
+	top: 395px;
+	left: 10px;
+	}
+
+section.news_sites > li {
+	top: 0px;
+	}
+
+#news_sites {
+	top: 420px;
+	left: 20px;
+	}
+
+#news_sites_1 {
+	top: 450px;
+	}
+
+img.dtan {
+	width: 20px;
+	top: 466px;
+	left: 10px;
+	}
+
+#news_sites_2 {
+	top: 480px;
+	}
+
+img.eqd {
+	width: 20px;
+	top: 496px;
+	left: 10px;
+	}
+
+#news_sites_3 {
+	top: 510px;
+	}
+
+img.cartoon_crave {
+	width: 20px;
+	top: 526px;
+	left: 10px;
+	}
+
+section.special_thanks > li {
+	top: 0px;
+	}
+
+#special_thanks {
+	top: 540px;
+	left: 20px;
+	}
+
+#special_thanks_1 {
+	top: 570px;
+	}
+
+#special_thanks_2 {
+	top: 600px;
+	}
+
+#special_thanks_3 {
+	top: 630px;
+	}
+
+#special_thanks_4 {
+	top: 660px;
+	}
+
+#special_thanks_5 {
+	top: 690px;
+	}

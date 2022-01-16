@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all_shows {
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	}
+
+article > img {
+	animation: fadein 2s;
+	}
+
+@keyframes fadein {
+	from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+
+#show1 {
+	width: 150px;
+	z-index: 0;
+	position: absolute;
+	top: 150px;
+	left: 10px;
+	}
+
+.showlogo1 {
+	width: 120px;
+	z-index: 1;
+	position: absolute;
+	top: 160px;
+	left: 24px;
+	}
+
+img.showlogo1 {
+	transition: opacity 1s;
+	opacity: 0.6;
+	}
+
+img.showlogo1:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	}
+
+img.showlogo1:active {
+	transform: scale(0.8);
+	}
+
+#show2 {
+	width: 150px;
+	z-index: 0;
+	position: absolute;
+	top: 150px;
+	left: 180px;
+	}
+
+.showlogo2 {
+	width: 150px;
+	z-index: 1;
+	position: absolute;
+	top: 150px;
+	left: 180px;
+	}
+
+img.showlogo2 {
+	transition: opacity 1s;
+	opacity: 0.6;
+	}
+
+img.showlogo2:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	}
+
+img.showlogo2:active {
+	transform: scale(0.8);
+	}
+
+#show3 {
+	width: 150px;
+	z-index: 0;
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	}
+
+.showlogo3 {
+	width: 130px;
+	z-index: 1;
+	position: absolute;
+	top: 155px;
+	left: 360px;
+	}
+
+img.showlogo3 {
+	transition: opacity 1s;
+	opacity: 0.6;
+	}
+
+img.showlogo3:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	}
+
+img.showlogo3:active {
+	transform: scale(0.8);
+	}
+
+#show4 {
+	width: 150px;
+	z-index: 0;
+	position: absolute;
+	top: 150px;
+	left: 520px;
+	}
+
+.showlogo4 {
+	width: 130px;
+	z-index: 1;
+	position: absolute;
+	top: 155px;
+	left: 530px;
+	}
+
+img.showlogo4 {
+	transition: opacity 1s;
+	opacity: 0.6;
+	}
+
+img.showlogo4:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	}
+
+img.showlogo4:active {
+	transform: scale(0.8);
+	}
+
+#show5 {
+	width: 150px;
+	z-index: 0;
+	position: absolute;
+	top: 150px;
+	left: 690px;
+	}
+
+.showlogo5 {
+	width: 130px;
+	z-index: 1;
+	position: absolute;
+	top: 155px;
+	left: 700px;
+	}
+
+img.showlogo5 {
+	transition: opacity 1s;
+	opacity: 0.6;
+	}
+
+img.showlogo5:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	}
+
+img.showlogo5:active {
+	transform: scale(0.8);
+	}
+
+@media screen and (max-width: 850px) {
+	#show4 {
+		top: 380px;
+		left: 10px;
+		}
+
+	.showlogo4 {
+		top: 385px;
+		left: 24px;
+		}
+	
+	#show5 {
+		top: 380px;
+		left: 180px;
+		}
+
+	.showlogo5 {
+		top: 385px;
+		left: 180px;
+		}
+	}

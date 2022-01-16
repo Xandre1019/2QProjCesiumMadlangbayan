@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link { /* For the links to look like hwo they do normally */
+	text-decoration: underline;
+	color: blue;
+	}
+
+a:hover {
+	color: white;
+	}
+
+a:active {
+	color: darkblue;
+	}
+
+a:visited {
+	color: darkblue;
+	}
+
+
+span { /* For the italic text */
+	font-style: italic;
+	}
+
+h3, p { /* Defaults position setting */
+	position: absolute;
+	}
+
+/* Defines the position of the text */
+
+h3 {
+	top: 100px;
+	}
+
+#social_media_icons {
+	top: 130px;
+	}
+
+#social_media_icons_1 {
+	top: 160px;
+	}
+
+#other_icons {
+	top: 230px;
+	}
+
+#other_icons_1 {
+	top: 260px;
+	}
+
+#other_icons_2 {
+	top: 280px;
+	}
+
+#other_icons_3 {
+	top: 300px;
+	}
+
+#other_icons_4 {
+	top: 320px;
+	}
+
+#thumbnails {
+	top: 390px;
+	}
+
+#thumbnails_1 {
+	top: 420px;
+	}
+
+#thumbnails_2 {
+	top: 450px;
+	}
+
+#thumbnails_3 {
+	top: 480px;
+	}
+
+#thumbnails_4 {
+	top: 510px;
+	}
+
+#artwork {
+	top: 580px;
+	}
+
+#artwork_1 {
+	top: 610px;
+	}
+
+#logos {
+	top: 680px;
+	}
+
+#logos_1 {
+	top: 710px;
+	}
+
+#logos_2 {
+	top: 740px;
+	}
+
+#logos_3 {
+	top: 770px;
+	}
+
+#logos_4 {
+	top: 800px;
+	}
+
+#logos_5 {
+	top: 830px;
+	}
+
+#original_posters {
+	top: 880px;
+	}
+
+#original_posters_1 {
+	top: 910px;
+	}
+
+#original_posters_2 {
+	top: 940px;
+	}
+
+#original_posters_3 {
+	top: 970px;
+	}
+
+#original_posters_4 {
+	top: 1000px;
+	}
+
+#original_posters_5 {
+	top: 1030px;
+	}
+
+#contributors_icons {
+	top: 1080px;
+	}
+
+#contributors_icons_1 {
+	top: 1110px;
+	}
+
+#contributors_icons_2 {
+	top: 1140px;
+	}
+
+#contributors_icons_3 {
+	top: 1170px;
+	}
+
+#contributors_icons_4 {
+	top: 1200px;
+	}
+
+#contributors_icons_5 {
+	top: 1240px;
+	}
+
+#contributors_icons_6 {
+	top: 1280px;
+	}
+
+#contributors_icons_7 {
+	top: 1310px;
+	}
+
+#contributors_icons_8 {
+	top: 1340px;
+	}
+
+#contributors_icons_9 {
+	top: 1370px;
+	}
+
+#contributors_icons_10 {
+	top: 1400px;
+	}
+
+#video_sources {
+	top: 1450px;
+	}
+
+#video1 {
+	top: 1480px;
+	}
+
+#video2 {
+	top: 1510px;
+	}
+
+#video3 {
+	top: 1540px;
+	}
+
+#video4 {
+	top: 1570px;
+	}
+
+#video5 {
+	top: 1600px;
+	}
+
